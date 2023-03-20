@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UV-Compatible", content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./style.css">
+        <title>BabbanGona.com</title>
+    </head>
+    <body>
+        <h1><em>Poultry Operations Survey</em></h1>
+        <form action="/" method="post">
+            <div class="form-controller" id="form-controller">
+                <fieldset>
+                    <label for="name">Name of Poultry farmer</label>
+                    <br>
+                    <input id="farmer-name" class="farmer-name" name="farmer" type="text" placeholder="poultry farmer name">
+                    <br>
+                    <br>
+                    <label for="address">Address of Poultry farmer</label>
+                    <br>
+                    <input id="address" class="address" name="address" type="text" placeholder="Address line 1">
+                    <br>
+                    <br>
+                    <label for="phone-number">Phone number</label>
+                    <br>
+                    <input id="phone-number" class="phone-number" name="phoneNumber" type="number" placeholder="enter phone number">
+                    <br>
+                    <br>
+                    <label for="hub">Hub</label>
+                    <br>
+                    <input type="radio" name="hub">Ikara
+                    <input type="radio" name="hub">Soba
+                    <input type="radio" name="hub">Igabi
+                    <input type="radio" name="hub">Lere
+                    <input type="radio" name="hub">Toro
+                    <br>
+                    <br>
+                    <label for="fo-name">Fo name</label>
+                    <br>
+                    <input id="fo-name" class="fo-name" name="foName" type="text" placeholder="fo name">
+                    <br>
+                    <br>
+                    <button id="btn" class="btn" type="submit">Submit</button>
+                </fieldset>
+              
+            </div>
+           
+        </form>
+        <style>
+            body{
+                background-color: purple;
+            }
+            .form-controller{
+                padding: 0 500px;
+                margin-top: 30px;
+            }
+            h1{
+                margin: 0 490px;
+            }
+            fieldset{
+                background-color: white;
+            }
+            .btn{
+                width: 100%;
+                background-color: green;
+                font-size:larger;
+            }
+            label{
+                font-size: larger;
+                font-weight: bolder;
+                font-family: cursive;
+            }
+        </style>
+    </body>
+</html>
